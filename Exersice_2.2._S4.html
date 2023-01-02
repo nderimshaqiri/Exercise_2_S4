@@ -7,7 +7,7 @@
     <title>2.2.</title>
 </head>
 <body>
-    <table cellspacing="15"  width="900px" align="center">
+    <table border="1" cellspacing="15"  width="900px" align="center">
         <tr>
             <td colspan="3">
                 <h2>Gamer's set</h2>
@@ -44,58 +44,60 @@
                 <a href="#">Read More</a>
             </td>
         </tr>
-   
-        <tr valign="top">
-            <td >
+    </table>
+
+
+    <table cellspacing="15" border="1" bgcolor="#ccc" width="900" align="center">
+        <tr>
+            <td>
                 <form>
+                    <tr>
+                        <td width="33%" valign="top">
+                            <h3>Personal details</h3>
+                            <input type="text" name="text" placeholder="FullName"/>
+                            <br/>
+                            <br/>
+                            <input type="email" name="text" placeholder="Email Address"/>
+                            <br/>
+                            <br/>
+                            <textarea name="Products" id="" cols="30" rows="10" placeholder="Product is"></textarea>
+                        </td>
+
+                        <td width="33%" valign="top">
+                            <h3>Choose Product<u>s</u></h3>
+                            <input type="checkbox" name="1st" id="First Product">
+                            <label for="First Product"> Xbox Series S</label>
+                            <br/>
+                            <br/>
+                            <input type="checkbox" name="2nd" id="Second Product">
+                            <label for="Second Product">Headphones Wireless</label>
+                            <br/>
+                            <br/>
+                            <input type="checkbox" name="3nd" id="Third Product">
+                            <label for="Third Product">Xbox Series Wireless</label>
+                        </td>
                     
-                </form>
-                <form>
-                    <h3>Personal details</h3>
-                    <input type="text" name="text" placeholder="FullName"/>
-                    <br/>
-                    <br/>
-                    <input type="email" name="text" placeholder="Email Address"/>
-                    <br/>
-                    <br/>
-                    <textarea name="Products" id="" cols="30" rows="10" placeholder="Product is"></textarea>                
-                </form>
-            </td>
-            <td >
-                <form>
-                    <h3>Choose Product<u>s</u></h3>
-                    <input type="checkbox" name="1st" id="First Product">
-                    <label for="First Product"> Xbox Series S</label>
-                    <br/>
-                    <br/>
-                    <input type="checkbox" name="2nd" id="Second Product">
-                    <label for="Second Product">Headphones Wireless</label>
-                    <br/>
-                    <br/>
-                    <input type="checkbox" name="3nd" id="Third Product">
-                    <label for="Third Product">Xbox Series Wireless</label>
-                </form>
-            </td>
-            <td >
-                <form>
-                    <h3>Credit Card</h3>
-                    <input type="text" name="Card Name" placeholder="Name on card">
-                    <br/>
-                    <br/>
-                    Card number:
-                    <br/>
-                    <input type="number" placeholder="xxxx xxxx xxxx xxxx">
-                    <br/>
-                    <br/>
-                    CCV:
-                    <br/>
-                    <input type="number" placeholder="xxx">
-                    <br/>
-                    <br/>
-                    <button type="Submit">Submit</button>
-                    <br/>
-                    <br/>
-                    Do not have any Credit Card? <a href="#">Click here</a>
+                        <td width="33%" valign="top">
+                            <h3>Credit Card</h3>
+                            <input type="text" name="Card Name" placeholder="Name on card">
+                            <br/>
+                            <br/>
+                            Card number:
+                            <br/>
+                            <input type="number" placeholder="xxxx xxxx xxxx xxxx">
+                            <br/>
+                            <br/>
+                            CCV:
+                            <br/>
+                            <input type="number" placeholder="xxx">
+                            <br/>
+                            <br/>
+                            <button type="Submit">Submit</button>
+                            <br/>
+                            <br/>
+                            Do not have any Credit Card? <a     href="#">Click here</a>
+                        </td>
+                    </tr>
                 </form>
             </td>
         </tr>
